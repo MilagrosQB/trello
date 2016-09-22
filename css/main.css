@@ -59,3 +59,17 @@ nav {
 	background-color: #539e3c;
 }
 
+.border-radius{
+    border-radius: 5px;
+}
+
+.card-son {
+	width: 200px;
+    height: 40px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
