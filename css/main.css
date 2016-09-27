@@ -73,3 +73,23 @@ nav {
     border-radius: 5px;
 }
 
+#board {
+    width: 150px;
+    height: 35px;
+    padding: 3px;
+    margin: 5px;
+    background-color: #4590bc;
+    font-size: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    float: left;
+}
+
+
+display-none{
+    display: none;
+}
+
+display-block{
+    display: block;
+}

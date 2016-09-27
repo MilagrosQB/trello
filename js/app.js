@@ -4,13 +4,11 @@ window.addEventListener("load", function(){
 			event.preventDefault();
 			deleteElement();
 			addFormtarget();
+			saveCard();
 	});
-
 			button.addEventListener("click", function(event) {
-				event.preventDefault();
-				
+			event.preventDefault();
 			});
-
 });
 
 function deleteElement(){
@@ -39,11 +37,8 @@ function addFormtarget(){
 			button.setAttribute("type", "button");
 	var textButton = document.createTextNode("Guardar");
 	var newtextButton = newButton.appendChild(textButton);
+	var newinput = document.createElement("input");
 }
 
-function saveCard() {
-	var textButton = document.createTextNode("Guardar");
-	var newtextButton = newButton.appendChild(textButton);
-	var newTarget = document.createElement("input")
-			newtextButton.innerHTML = document.getElementById("newtextButton")
-}
+
+
